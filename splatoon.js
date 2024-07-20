@@ -124,77 +124,214 @@ var splatoon = {
 		{name:'Octoshot Replica', subWeapon:'Suction Bomb', specialWeapon:'Inkzooka'}],
 	gear: {
 		headgear: [
-			{name:'18K Aviators', brand:'Rockenberg', mainAbility:'Last-Ditch Effort'},
-			{name:'Armor Helmet Replica', brand:'Cuttlegear', mainAbility:'Tenacity'},
-			{name:'B-ball Headband', brand:'Zink', mainAbility:'Opening Gambit'},
-			{name:'Backwards Cap', brand:'Zekko', mainAbility:'Quick Respawn'},
-			{name:'Bamboo Hat', brand:'Inkline', mainAbility:'Ink Saver (Main)'},
-			{name:'Bike Helmet', brand:'Skalop', mainAbility:'Ink Recovery Up'},
-			{name:'Black Arrowbands', brand:'Zekko', mainAbility:'Tenacity'},
-			{name:'Blowfish Bell Hat', brand:'Firefin', mainAbility:'Ink Recovery Up'},
-			{name:'Bobble Hat', brand:'Splash Mob', mainAbility:'Quick Super Jump'},
-			{name:'Camo Mesh', brand:'Firefin', mainAbility:'Swim Speed Up'},
-			{name:'Camping Hat', brand:'Inkline', mainAbility:'Special Duration Up'},
-			{name:'Classic Straw Boater', brand:'Skalop', mainAbility:'Special Duration Up'},
-			{name:'CoroCoro Cap', brand:'Zekko', mainAbility:'Damage Up'},
-			{name:'Cycle King Cap', brand:'Tentatek', mainAbility:'Defense Up'},
-			{name:'Cycling Cap', brand:'Zink', mainAbility:'Bomb Range Up'},
-			{name:'Designer Headphones', brand:'Forge', mainAbility:'Ink Saver (Sub)'},
-			{name:'Fake Contacts', brand:'Tentatek', mainAbility:'Special Charge Up'},
-			{name:'FishFry Visor', brand:'Firefin', mainAbility:'Special Charge Up'},
-			{name:'Five-Panel Cap', brand:'Zekko', mainAbility:'Comeback'},
-			{name:'Full Moon Glasses', brand:'Krak-On', mainAbility:'Quick Super Jump'},
-			{name:'Gas Mask', brand:'Forge', mainAbility:'Tenacity'},
-			{name:'Golf Visor', brand:'Zink', mainAbility:'Run Speed Up'},
-			{name:'Hero Headset Replica', brand:'Cuttlegear', mainAbility:'Run Speed Up'},
-			{name:'Jet Cap', brand:'Firefin', mainAbility:'Special Saver'},
-			{name:'Jogging Headband', brand:'Zekko', mainAbility:'Ink Saver (Sub)'},
-			{name:'Jungle Hat', brand:'Firefin', mainAbility:'Ink Saver (Main)'},
-			{name:'Legendary Cap', brand:'Cuttlegear', mainAbility:'Damage Up'},
-			{name:'Lightweight Cap', brand:'Inkline', mainAbility:'Swim Speed Up'},
-			{name:'Noise Cancelers', brand:'Forge', mainAbility:'Quick Respawn'},
-			{name:'Octoglasses', brand:'Firefin', mainAbility:'Last-Ditch Effort'},
-			{name:'Octoling Goggles', brand:'Cuttlegear', mainAbility:'Bomb Range Up'},
-			{name:'Paintball Mask', brand:'Forge', mainAbility:'Comeback'},
-			{name:'Paisley Bandana', brand:'Krak-On', mainAbility:'Ink Saver (Sub)'},
-			{name:'Pilot Goggles', brand:'Forge', mainAbility:'Bomb Range Up'},
-			{name:'Power Mask', brand:'amiibo', mainAbility:'Defense Up'},
-			{name:'Retro Specs', brand:'Splash Mob', mainAbility:'Quick Respawn'},
-			{name:'Safari Hat', brand:'Forge', mainAbility:'Last-Ditch Effort'},
-			{name:'Samurai Helmet', brand:'amiibo', mainAbility:'Damage Up'},
-			{name:'Short Beanie', brand:'Inkline', mainAbility:'Ink Saver (Main)'},
-			{name:'Skate Helmet', brand:'Skalop', mainAbility:'Special Saver'},
-			{name:'Skull Bandana', brand:'Forge', mainAbility:'Special Saver'},
-			{name:'Snorkel Mask', brand:'Forge', mainAbility:'Damage Up'},
-			{name:'Soccer Headband', brand:'Tentatek', mainAbility:'Tenacity'},
-			{name:'Special Forces Beret', brand:'Forge', mainAbility:'Opening Gambit'},
-			{name:'Splash Goggles', brand:'Forge', mainAbility:'Defense Up'},
-			{name:'Sporty Bobble Hat', brand:'Skalop', mainAbility:'Tenacity'},
-			{name:'Squash Headband', brand:'Zink', mainAbility:'Damage Up'},
-			{name:'SQUID GIRL Hat', brand:'The SQUID GIRL', mainAbility:'Opening Gambit'},
-			{name:'Squid Hairclip', brand:'amiibo', mainAbility:'Swim Speed Up'},
-			{name:'Squid Nordic', brand:'Skalop', mainAbility:'Comeback'},
-			{name:'Squid-Stitch Cap', brand:'Skalop', mainAbility:'Opening Gambit'},
-			{name:'Squidvader Cap', brand:'Skalop', mainAbility:'Special Charge Up'},
-			{name:'Stealth Goggles', brand:'Forge', mainAbility:'Swim Speed Up'},
-			{name:'Straw Boater', brand:'Skalop', mainAbility:'Quick Super Jump'},
-			{name:'Streetstyle Cap', brand:'Skalop', mainAbility:'Ink Saver (Sub)'},
-			{name:'Striped Beanie', brand:'Splash Mob', mainAbility:'Opening Gambit'},
-			{name:'Studio Headphones', brand:'Forge', mainAbility:'Ink Saver (Main)'},
-			{name:'Sun Visor', brand:'Tentatek', mainAbility:'Bomb Range Up'},
-			{name:'Takoroka Mesh', brand:'Takoroka', mainAbility:'Defense Up'},
-			{name:'Tennis Headband', brand:'Tentatek', mainAbility:'Comeback'},
-			{name:'Tentacles Helmet', brand:'Forge', mainAbility:'Run Speed Up'},
-			{name:'Tinted Shades', brand:'Zekko', mainAbility:'Last-Ditch Effort'},
-			{name:'Traditional Headband', brand:'Famitsu', mainAbility:'Comeback'},
-			{name:'Treasure Hunter', brand:'Forge', mainAbility:'Ink Recovery Up'},
-			{name:'Two-Stripe Mesh', brand:'Krak-On', mainAbility:'Special Saver'},
-			{name:'Urchins Cap', brand:'Skalop', mainAbility:'Bomb Range Up'},
-			{name:'Visor Skate Helmet', brand:'Skalop', mainAbility:'Last-Ditch Effort'},
-			{name:'White Arrowbands', brand:'Zekko', mainAbility:'Special Duration Up'},
-			{name:'White Headband', brand:'SquidForce', mainAbility:'Ink Recovery Up'},
-			{name:'Zekko Mesh', brand:'Zekko', mainAbility:'Quick Super Jump'},
-		],
+			{name:'18K Aviators', mainAbility:'Last-Ditch Effort'},
+  			{name: 'Air Gills DX', mainAbility:'Tenacity'},
+ 			{name: 'Annaki Charms', mainAbility:'Swim Speed Up'},
+  			{name: 'Annaki Mask', mainAbility: 'Opening Gambit'},
+  			{name: 'Bamboo Hat', mainAbility: 'Ink Saver (Main)'},
+ 			{name: 'Beachcomber', mainAbility: 'Opening Gambit'},
+			{name: 'BlobMob Mask', mainAbility:'Tenacity'},
+			{name: 'Bream-Brim Cap'},
+			{name: 'Bucket Hat', mainAbility:'Special Saver'},
+			{name: 'Cephalo Pods', mainAbility: 'Ink Recovery Up'},
+			{name: 'Classic Bowler', mainAbility: 'Run Speed Up'},
+			{name: 'Classic Straw Boater', mainAbility: 'Special Power Up'},
+			{name: 'Designer Headphones', mainAbility: 'Ink Saver (Sub)'},
+			{name: 'Double Egg Shades', mainAbility:'Last-Ditch Effort'},
+			{name: 'Face Visor', mainAbility:'Sub Resistance Up'},
+			{name: 'Firefin Facemask', mainAbility: 'Run Speed Up'},
+			{name: 'FishFry Biscuit Bandana', mainAbility: 'Special Power Up'},
+			{name: 'FishFry Visor', mainAbility: 'Special Charge Up'},
+  			{name: 'Forge Mask', mainAbility: 'Intensify Action'},
+			{name: 'Full-Moon Glasses', mainAbility: 'Quick Super Jump'},
+  			{name: 'Glassless Glasses', mainAbility: 'Quick Respawn'},
+			{name: 'Half-Rim Glasses', mainAbility: 'Special Power Up'},
+			{name: 'Hero Mindset Replica', mainAbility: 'Sub Power Up'},
+			{name: 'Hickory Work Cap', mainAbility: 'Special Power Up'},
+			{name: 'Hockey Helmet', mainAbility: 'Intensify Action'},
+  Home-Team Catcher
+  Howdy Hat
+  Ink-Black Flap Cap
+  Ink-Tinted Goggles
+  Invisifloats
+  Jean Dream Bucket
+  Knitted Hat
+  Moto Shades
+  Ocho OctoPhones
+  Party Hard Hat
+  Pilot Goggles
+  Retro BluFocals
+  Retro Framers
+  Splash Goggles
+  Squidband
+  Squidbeak Shield
+  Squidlife Headphones
+  Squidvader Cap
+  Streetstyle Cap
+  Studio Headphones
+  Swim Goggles
+  Takoroka Mesh
+  Takoroka Visor
+  Teddy Band
+  Tennis Headband
+  Tinted Shades
+  Triple-Deck Specs
+  Urchins Cap
+  Wharfside Cap
+  White Headband
+  Winkle Stripe Helm
+  Woolly Urchins Classic
+  Annaki Beret
+  Annaki Beret & Glasses
+  Armor Helmet Replica
+  Astro Helm
+  Blowfish Bell Hat
+  Boss Floss
+  Brain Strainer
+  Chaos Helm
+  Five-Alarm Helmet
+  Hero Headset Replica
+  Hipster Horn-Rims
+  House-Tag Denim Cap
+  Jellyvader Cap
+  Lightweight Cap
+  Lo-Vis Visor
+  MTB Helmet
+  Ocho OctoPhones Blancos
+  Octo Tackle Helmet Deco
+  Octoking Facemask
+  Painter's Mask
+  Paisley Bandana
+  Power Mask Mk I
+  Retro Specs
+  Samurai Helmet
+  Scrum Cap
+  Short Beanie
+  Skate Helmet
+  Skull Bandana
+  Splash Goggles
+  Squid Facemask
+  Squid Hairclip
+  Squid-Stitch Cap
+  Stay Crusty Cap
+  SV925 Circle Shades
+  Tentaclinger Earring
+  Toni Kensa Goggles
+  Tulip Parasol
+  Armor Helmet Replica
+  Power Mask
+  Enchanted Hat
+  Cycling Cap
+  Squinja Mask Mk II
+  Squinja Mask Mk I
+  Squid Clip-Ons
+  Fresh Fish Head
+  '360 All-Scopes'
+  Pearlescent Crown S
+  Pearlescent Crown L
+  Marinated Headphones
+  B-Ball Headband
+  Cycle King Cap
+  Z+F Flair Bowler
+  Striped Beanie
+  Treasure Hunter
+  Jungle Hat
+  Camping Hat
+  Safari Hat
+  Backward Cap
+  Squash Headband
+  Fake Contacts
+  Gas Mask
+  Visor Skate Helmet
+  Dustcloud 'Phones
+  Sporty Bobble Hat
+  Octoglasses
+  Soccer Headband
+  Squid Nordic
+  Dustcloud Cap
+  Sun Visor
+  Camo Mesh
+  Straw Boater
+  Two-Stripe Mesh
+  Sea-Me-Nots
+  Bike Helmet
+  Stealth Goggles
+  Paintball Mask
+  Jet Cap
+  Zekko Mesh
+  Snorkel Mask
+  Special-Forces Beret
+  ZedFry Beanie
+  Golf Visor
+  Bobble Hat
+  Black Arrowbands
+  ZedFry Helmet
+  Seafoam Cap
+  White Arrowbands
+  Seafoam 'Phones
+  Five-Panel Cap
+  Hat-Trick Bell Hat
+  Deep Sinker Helm
+  Jogging Headband
+  Headlamp Helmet
+  Commander Cap
+  Barrelfish Home Helmet
+  Do-Rag, Cap & Glasses
+  Noise Cancelers
+  Crust Bucket Visor
+  Seashell Bamboo Hat
+  'Cap\'n Cap'
+  Stealth Squidbeak Shield
+  Glam Clam Specs
+  See-an-Enemy HUD
+  Aux Boxes
+  Retro Future Helmet
+  Swim Cap
+  Away-Team Catcher
+  Urchin Understitch
+  Headlamp Hat
+  Undead Head
+  The Plankton Walker
+  Swim Reaper
+  Bleak Beak
+  Manta Mask
+  Onaga Mask
+  Hohojiro Mask
+  3D Glasses
+  Meetcha Mask
+  Dust Blocker 2000
+  Cap of Legend
+  Clue-Detecting Cap
+  Flounder Flap Cap
+  Vintage Biker Cap
+  Anglerfish Knit
+  Dapperdasher Hat
+  Octopearl Crown
+  Golden Gala Masque
+  Coral Wreath
+  Slipstream Helmet
+  Blowfish Newsie
+  King Flip Mesh
+  Sneaky Beanie
+  Ink-Guard Goggles
+  Tee Time Visor
+  Barrelfish Baseball Hat
+  Controller VM
+  Mountie Hat
+  Digi-Camo Forge Mask
+  Matte Bike Helmet
+  Yamagiri Beanie
+  Black FishFry Bandana
+  Long-Billed Cap
+  Zekko Cap
+  Barrelfish Headgear
+  Slipstream Helmet Pro
+  Squidfin Hook Cans
+  Worker's Head Towel
+  Order Regulator Replica
+  Parallel Mask
+  Pearl Plushie
+  Order Earring Replica
 		clothing: [
 			{name:'Aloha Shirt', brand:'Forge', mainAbility:'Ink Recovery Up'},
 			{name:'Anchor Sweat', brand:'SquidForce', mainAbility:'Cold Blooded'},
