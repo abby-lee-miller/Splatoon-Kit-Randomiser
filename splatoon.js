@@ -29,8 +29,9 @@ var splatoon = {
 		'Sturgeon Shipyard',
 		'Um\'ami Ruins'
 		'Undertow Spillway'
-		'Wahoo World'
-	weapons:[
+		'Wahoo World'],
+
+		weapons:[
 		{name:'Splattershot Jr.', subWeapon:'Splat Bomb', specialWeapon:'Big Bubbler'},
 		
 		headgear: [
